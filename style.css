@@ -1,12 +1,51 @@
-.logo{
-    background:#01052c;
-    width:100vw;
-    height:100vh;
-    background-image: url("./Imagen/gun-monopoly-hacking-dedsec-monochrome-wallpaper-preview.jpg");
-    background-size:cover;
-
- }
-.bg-attach{
-    background-image: url("./Imagen/gun-monopoly-hacking-dedsec-monochrome-wallpaper-preview.jpg");
-    background-attachment: fixed;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
 }
+
+a{
+    text-decoration:none;
+    color: deepskyblue;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: darkblue;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.logo{
+    display: flex;
+    color: rgb(60, 143, 168);
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right:10px;
+
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+
+@media (max-width:700px ){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10x 0px;
+    }
+} 
+

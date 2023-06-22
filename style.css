@@ -1,8 +1,10 @@
 .logo{
     background:#01052c;
-    width: 100%;
-    height:100%;
-    border-radius:1 rem;
+    width:100vw;
+    height:100vh;
+    background-image: url("./Imagen/gun-monopoly-hacking-dedsec-monochrome-wallpaper-preview.jpg");
+    background-size:cover;
+
  }
 .bg-attach{
     background-image: url("./Imagen/gun-monopoly-hacking-dedsec-monochrome-wallpaper-preview.jpg");
